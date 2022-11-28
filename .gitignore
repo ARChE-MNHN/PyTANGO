@@ -1,8 +1,6 @@
 *.pyc
-/**/.ipynb_checkpoints/
 test.py
-testCurrent.py
 *.ipynb
 dist/*
 build/*
-PyBacmman.egg-info/*
+TANGO_Py.egg-info/*

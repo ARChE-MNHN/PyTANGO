@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="PyTANGO",
+    name="TANGO_Py",
     version="0.1",
     author="Jean Ollion",
     author_email="jean.ollion@polytechnique.org",

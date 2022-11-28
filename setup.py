@@ -11,8 +11,8 @@ setuptools.setup(
     description="Tools for Analysis of Nuclear Genome Organization",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jeanollion/PyTANGO.git",
-    download_url = 'https://github.com/jeanollion/PyTANGO/archive/v_01.tar.gz',
+    url="https://github.com/ARChE-MNHN/PyTANGO.git",
+    download_url = 'https://github.com/ARChE-MNHN/PyTANGO/archive/v_01.tar.gz',
     packages=setuptools.find_packages(),
     classifiers=[
         'Development Status :: 4 - Beta',

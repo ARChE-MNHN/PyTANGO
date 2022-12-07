@@ -35,7 +35,7 @@ def compute_evsf(evf, nbins, channels):
 
 def get_evfs_metrics(evfs, break_centers):
     diff = evfs - break_centers
-    area = np.sum(diff, axis=-1)
+    area = np.sum(diff, axis=-1) / centers.shape[0]
     max_pos = np.max(diff, axis=-1)
     max_pos[max_pos<0] = np.nan
     min_neg = np.min(diff, axis=-1)
